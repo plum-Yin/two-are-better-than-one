@@ -251,6 +251,9 @@ python -u train.py \
 
 ALBERT($+x^{\ell}+T^{\ell}$), (**12 batch size \* 2 grad period = 24 effective batch size**), **2** layers, ACE05. (requires 11G memory)
 
+
+
+
 ```shell
 python -u train.py \
     --num_layers 2 \
